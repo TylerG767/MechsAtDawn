@@ -1,0 +1,3 @@
+C:/Users/duelm/Documents/GitHub/MechsAtDawn/build/CMakeFiles/MechsAtDawn.dir
+C:/Users/duelm/Documents/GitHub/MechsAtDawn/build/CMakeFiles/edit_cache.dir
+C:/Users/duelm/Documents/GitHub/MechsAtDawn/build/CMakeFiles/rebuild_cache.dir
