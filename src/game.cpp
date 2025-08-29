@@ -1,10 +1,15 @@
 #include "game.h"
 #include <string>
+#include "PlayerSystem.h" // for HandlePlayerInput
+#include "GameConfig.h" // for centralized configuration
+#include "RenderUtils.h" // for rendering helpers
+
 Game::Game() {
-    screenWidth = 800;
-    screenHeight = 600;
-    targetFPS = 60;
-    windowTitle = "Mechs At Dawn";
+    // Use centralized configuration constants
+    screenWidth = GameConfig::SCREEN_WIDTH;
+    screenHeight = GameConfig::SCREEN_HEIGHT;
+    targetFPS = GameConfig::TARGET_FPS;
+    windowTitle = GameConfig::WINDOW_TITLE;
     running = true;
 }
 
@@ -20,13 +25,14 @@ void Game::Setup() {
 
 void Game::Update() {
     if (WindowShouldClose()) running = false;
-    UpdatePlayer(player);
+    // Use unified input handler (movement + clamping)
+    HandlePlayerInput(player, GetFrameTime());
 }
 
 void Game::Draw() {
     BeginDrawing();
     ClearBackground(RAYWHITE);
-    Font font = GetFontDefault();
+    Font font = RenderUtils::GetDefaultFont();
     DrawTextEx(font, "Mechs At Dawn Prototype", { 180, 280 }, 32, 2, DARKGRAY);
     DrawPlayer(player);
     EndDrawing();

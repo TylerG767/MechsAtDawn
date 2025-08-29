@@ -69,4 +69,34 @@ CMakeFiles/MechsAtDawn.dir/src/CollisionSystem.cpp.obj: \
  E:/msys2/mingw64/include/c++/15.2.0/tuple \
  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/ScalingSystem.h \
  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/Bullet.h \
- C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/XPOrb.h
+ C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/XPOrb.h \
+ C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/MathUtils.h \
+ E:/msys2/mingw64/include/c++/15.2.0/cmath \
+ E:/msys2/mingw64/include/math.h \
+ E:/msys2/mingw64/include/c++/15.2.0/bits/std_abs.h \
+ E:/msys2/mingw64/include/stdlib.h \
+ E:/msys2/mingw64/include/corecrt_wstdlib.h \
+ E:/msys2/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+ E:/msys2/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+ E:/msys2/mingw64/include/limits.h \
+ E:/msys2/mingw64/include/sec_api/stdlib_s.h \
+ E:/msys2/mingw64/include/c++/15.2.0/stdlib.h \
+ E:/msys2/mingw64/include/malloc.h \
+ E:/msys2/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+ E:/msys2/mingw64/include/errno.h \
+ E:/msys2/mingw64/include/c++/15.2.0/bits/specfun.h \
+ E:/msys2/mingw64/include/c++/15.2.0/limits \
+ E:/msys2/mingw64/include/c++/15.2.0/tr1/gamma.tcc \
+ E:/msys2/mingw64/include/c++/15.2.0/tr1/special_function_util.h \
+ E:/msys2/mingw64/include/c++/15.2.0/tr1/bessel_function.tcc \
+ E:/msys2/mingw64/include/c++/15.2.0/tr1/beta_function.tcc \
+ E:/msys2/mingw64/include/c++/15.2.0/tr1/ell_integral.tcc \
+ E:/msys2/mingw64/include/c++/15.2.0/tr1/exp_integral.tcc \
+ E:/msys2/mingw64/include/c++/15.2.0/tr1/hypergeometric.tcc \
+ E:/msys2/mingw64/include/c++/15.2.0/tr1/legendre_function.tcc \
+ E:/msys2/mingw64/include/c++/15.2.0/tr1/modified_bessel_func.tcc \
+ E:/msys2/mingw64/include/c++/15.2.0/tr1/poly_hermite.tcc \
+ E:/msys2/mingw64/include/c++/15.2.0/tr1/poly_laguerre.tcc \
+ E:/msys2/mingw64/include/c++/15.2.0/tr1/riemann_zeta.tcc \
+ C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/RenderUtils.h \
+ C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/GameConfig.h

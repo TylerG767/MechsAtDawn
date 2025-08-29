@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/duelm/Documents/GitHub/MechsAtDawn/src/CollisionSystem.cpp" "CMakeFiles/MechsAtDawn.dir/src/CollisionSystem.cpp.obj" "gcc" "CMakeFiles/MechsAtDawn.dir/src/CollisionSystem.cpp.obj.d"
   "C:/Users/duelm/Documents/GitHub/MechsAtDawn/src/Enemy.cpp" "CMakeFiles/MechsAtDawn.dir/src/Enemy.cpp.obj" "gcc" "CMakeFiles/MechsAtDawn.dir/src/Enemy.cpp.obj.d"
   "C:/Users/duelm/Documents/GitHub/MechsAtDawn/src/EnemySystem.cpp" "CMakeFiles/MechsAtDawn.dir/src/EnemySystem.cpp.obj" "gcc" "CMakeFiles/MechsAtDawn.dir/src/EnemySystem.cpp.obj.d"
+  "C:/Users/duelm/Documents/GitHub/MechsAtDawn/src/GameConfig.cpp" "CMakeFiles/MechsAtDawn.dir/src/GameConfig.cpp.obj" "gcc" "CMakeFiles/MechsAtDawn.dir/src/GameConfig.cpp.obj.d"
   "C:/Users/duelm/Documents/GitHub/MechsAtDawn/src/LevelUpUI.cpp" "CMakeFiles/MechsAtDawn.dir/src/LevelUpUI.cpp.obj" "gcc" "CMakeFiles/MechsAtDawn.dir/src/LevelUpUI.cpp.obj.d"
   "C:/Users/duelm/Documents/GitHub/MechsAtDawn/src/Player.cpp" "CMakeFiles/MechsAtDawn.dir/src/Player.cpp.obj" "gcc" "CMakeFiles/MechsAtDawn.dir/src/Player.cpp.obj.d"
   "C:/Users/duelm/Documents/GitHub/MechsAtDawn/src/PlayerSystem.cpp" "CMakeFiles/MechsAtDawn.dir/src/PlayerSystem.cpp.obj" "gcc" "CMakeFiles/MechsAtDawn.dir/src/PlayerSystem.cpp.obj.d"

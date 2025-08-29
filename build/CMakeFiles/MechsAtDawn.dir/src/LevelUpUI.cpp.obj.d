@@ -152,4 +152,6 @@ CMakeFiles/MechsAtDawn.dir/src/LevelUpUI.cpp.obj: \
  E:/msys2/mingw64/include/c++/15.2.0/bits/random.tcc \
  E:/msys2/mingw64/include/c++/15.2.0/numeric \
  E:/msys2/mingw64/include/c++/15.2.0/bits/stl_numeric.h \
- E:/msys2/mingw64/include/c++/15.2.0/pstl/glue_numeric_defs.h
+ E:/msys2/mingw64/include/c++/15.2.0/pstl/glue_numeric_defs.h \
+ C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/RenderUtils.h \
+ C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/GameConfig.h

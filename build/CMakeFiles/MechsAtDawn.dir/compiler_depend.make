@@ -94,8 +94,11 @@ CMakeFiles/MechsAtDawn.dir/src/CollisionSystem.cpp.obj: C:/Users/duelm/Documents
   C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/Bullet.h \
   C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/CollisionSystem.h \
   C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/Enemy.h \
+  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/MathUtils.h \
   C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/Player.h \
+  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/RenderUtils.h \
   C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/ScalingSystem.h \
+  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/XPOrb.h \
   E:/msys2/mingw64/include/_mingw.h \
   E:/msys2/mingw64/include/_mingw_mac.h \
   E:/msys2/mingw64/include/_mingw_secapi.h \
@@ -121,6 +124,8 @@ CMakeFiles/MechsAtDawn.dir/src/CollisionSystem.cpp.obj: C:/Users/duelm/Documents
   E:/msys2/mingw64/include/c++/15.2.0/bits/range_access.h \
   E:/msys2/mingw64/include/c++/15.2.0/bits/refwrap.h \
   E:/msys2/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
+  E:/msys2/mingw64/include/c++/15.2.0/bits/specfun.h \
+  E:/msys2/mingw64/include/c++/15.2.0/bits/std_abs.h \
   E:/msys2/mingw64/include/c++/15.2.0/bits/stl_algobase.h \
   E:/msys2/mingw64/include/c++/15.2.0/bits/stl_bvector.h \
   E:/msys2/mingw64/include/c++/15.2.0/bits/stl_construct.h \
@@ -136,6 +141,7 @@ CMakeFiles/MechsAtDawn.dir/src/CollisionSystem.cpp.obj: C:/Users/duelm/Documents
   E:/msys2/mingw64/include/c++/15.2.0/bits/utility.h \
   E:/msys2/mingw64/include/c++/15.2.0/bits/vector.tcc \
   E:/msys2/mingw64/include/c++/15.2.0/bits/version.h \
+  E:/msys2/mingw64/include/c++/15.2.0/cmath \
   E:/msys2/mingw64/include/c++/15.2.0/concepts \
   E:/msys2/mingw64/include/c++/15.2.0/cstddef \
   E:/msys2/mingw64/include/c++/15.2.0/debug/assertions.h \
@@ -144,8 +150,22 @@ CMakeFiles/MechsAtDawn.dir/src/CollisionSystem.cpp.obj: C:/Users/duelm/Documents
   E:/msys2/mingw64/include/c++/15.2.0/ext/numeric_traits.h \
   E:/msys2/mingw64/include/c++/15.2.0/ext/type_traits.h \
   E:/msys2/mingw64/include/c++/15.2.0/initializer_list \
+  E:/msys2/mingw64/include/c++/15.2.0/limits \
   E:/msys2/mingw64/include/c++/15.2.0/new \
   E:/msys2/mingw64/include/c++/15.2.0/pstl/pstl_config.h \
+  E:/msys2/mingw64/include/c++/15.2.0/stdlib.h \
+  E:/msys2/mingw64/include/c++/15.2.0/tr1/bessel_function.tcc \
+  E:/msys2/mingw64/include/c++/15.2.0/tr1/beta_function.tcc \
+  E:/msys2/mingw64/include/c++/15.2.0/tr1/ell_integral.tcc \
+  E:/msys2/mingw64/include/c++/15.2.0/tr1/exp_integral.tcc \
+  E:/msys2/mingw64/include/c++/15.2.0/tr1/gamma.tcc \
+  E:/msys2/mingw64/include/c++/15.2.0/tr1/hypergeometric.tcc \
+  E:/msys2/mingw64/include/c++/15.2.0/tr1/legendre_function.tcc \
+  E:/msys2/mingw64/include/c++/15.2.0/tr1/modified_bessel_func.tcc \
+  E:/msys2/mingw64/include/c++/15.2.0/tr1/poly_hermite.tcc \
+  E:/msys2/mingw64/include/c++/15.2.0/tr1/poly_laguerre.tcc \
+  E:/msys2/mingw64/include/c++/15.2.0/tr1/riemann_zeta.tcc \
+  E:/msys2/mingw64/include/c++/15.2.0/tr1/special_function_util.h \
   E:/msys2/mingw64/include/c++/15.2.0/tuple \
   E:/msys2/mingw64/include/c++/15.2.0/type_traits \
   E:/msys2/mingw64/include/c++/15.2.0/vector \
@@ -154,18 +174,29 @@ CMakeFiles/MechsAtDawn.dir/src/CollisionSystem.cpp.obj: C:/Users/duelm/Documents
   E:/msys2/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
   E:/msys2/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/os_defines.h \
   E:/msys2/mingw64/include/corecrt.h \
+  E:/msys2/mingw64/include/corecrt_wstdlib.h \
   E:/msys2/mingw64/include/crtdefs.h \
+  E:/msys2/mingw64/include/errno.h \
+  E:/msys2/mingw64/include/limits.h \
+  E:/msys2/mingw64/include/malloc.h \
+  E:/msys2/mingw64/include/math.h \
   E:/msys2/mingw64/include/raylib.h \
   E:/msys2/mingw64/include/sdks/_mingw_ddk.h \
+  E:/msys2/mingw64/include/sec_api/stdlib_s.h \
   E:/msys2/mingw64/include/stdarg.h \
   E:/msys2/mingw64/include/stddef.h \
+  E:/msys2/mingw64/include/stdlib.h \
   E:/msys2/mingw64/include/vadefs.h \
+  E:/msys2/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  E:/msys2/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
   E:/msys2/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  E:/msys2/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h
+  E:/msys2/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  E:/msys2/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
 
 CMakeFiles/MechsAtDawn.dir/src/Enemy.cpp.obj: C:/Users/duelm/Documents/GitHub/MechsAtDawn/src/Enemy.cpp \
   C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/Bullet.h \
   C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/Enemy.h \
+  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/MathUtils.h \
   C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/ScalingSystem.h \
   E:/msys2/mingw64/include/_mingw.h \
   E:/msys2/mingw64/include/_mingw_mac.h \
@@ -378,9 +409,13 @@ CMakeFiles/MechsAtDawn.dir/src/EnemySystem.cpp.obj: C:/Users/duelm/Documents/Git
   E:/msys2/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
   E:/msys2/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
 
+CMakeFiles/MechsAtDawn.dir/src/GameConfig.cpp.obj: C:/Users/duelm/Documents/GitHub/MechsAtDawn/src/GameConfig.cpp \
+  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/GameConfig.h
+
 CMakeFiles/MechsAtDawn.dir/src/LevelUpUI.cpp.obj: C:/Users/duelm/Documents/GitHub/MechsAtDawn/src/LevelUpUI.cpp \
   C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/LevelUpUI.h \
   C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/Player.h \
+  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/RenderUtils.h \
   E:/msys2/mingw64/include/_mingw.h \
   E:/msys2/mingw64/include/_mingw_mac.h \
   E:/msys2/mingw64/include/_mingw_off_t.h \
@@ -552,6 +587,8 @@ CMakeFiles/MechsAtDawn.dir/src/Player.cpp.obj: C:/Users/duelm/Documents/GitHub/M
 CMakeFiles/MechsAtDawn.dir/src/PlayerSystem.cpp.obj: C:/Users/duelm/Documents/GitHub/MechsAtDawn/src/PlayerSystem.cpp \
   C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/Bullet.h \
   C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/Enemy.h \
+  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/GameConfig.h \
+  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/MathUtils.h \
   C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/Player.h \
   C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/PlayerSystem.h \
   C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/ScalingSystem.h \
@@ -715,6 +752,7 @@ CMakeFiles/MechsAtDawn.dir/src/ScalingSystem.cpp.obj: C:/Users/duelm/Documents/G
   E:/msys2/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h
 
 CMakeFiles/MechsAtDawn.dir/src/XPOrb.cpp.obj: C:/Users/duelm/Documents/GitHub/MechsAtDawn/src/XPOrb.cpp \
+  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/MathUtils.h \
   C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/XPOrb.h \
   E:/msys2/mingw64/include/_mingw.h \
   E:/msys2/mingw64/include/_mingw_mac.h \
@@ -935,7 +973,13 @@ CMakeFiles/MechsAtDawn.dir/src/XPSystem.cpp.obj: C:/Users/duelm/Documents/GitHub
   E:/msys2/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
 
 CMakeFiles/MechsAtDawn.dir/src/game.cpp.obj: C:/Users/duelm/Documents/GitHub/MechsAtDawn/src/game.cpp \
+  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/Bullet.h \
+  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/Enemy.h \
+  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/GameConfig.h \
   C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/Player.h \
+  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/PlayerSystem.h \
+  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/RenderUtils.h \
+  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/ScalingSystem.h \
   C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/game.h \
   E:/msys2/mingw64/include/_mingw.h \
   E:/msys2/mingw64/include/_mingw_mac.h \
@@ -974,17 +1018,21 @@ CMakeFiles/MechsAtDawn.dir/src/game.cpp.obj: C:/Users/duelm/Documents/GitHub/Mec
   E:/msys2/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
   E:/msys2/mingw64/include/c++/15.2.0/bits/std_abs.h \
   E:/msys2/mingw64/include/c++/15.2.0/bits/stl_algobase.h \
+  E:/msys2/mingw64/include/c++/15.2.0/bits/stl_bvector.h \
   E:/msys2/mingw64/include/c++/15.2.0/bits/stl_construct.h \
   E:/msys2/mingw64/include/c++/15.2.0/bits/stl_function.h \
   E:/msys2/mingw64/include/c++/15.2.0/bits/stl_iterator.h \
   E:/msys2/mingw64/include/c++/15.2.0/bits/stl_iterator_base_funcs.h \
   E:/msys2/mingw64/include/c++/15.2.0/bits/stl_iterator_base_types.h \
   E:/msys2/mingw64/include/c++/15.2.0/bits/stl_pair.h \
+  E:/msys2/mingw64/include/c++/15.2.0/bits/stl_uninitialized.h \
+  E:/msys2/mingw64/include/c++/15.2.0/bits/stl_vector.h \
   E:/msys2/mingw64/include/c++/15.2.0/bits/string_view.tcc \
   E:/msys2/mingw64/include/c++/15.2.0/bits/stringfwd.h \
   E:/msys2/mingw64/include/c++/15.2.0/bits/uses_allocator.h \
   E:/msys2/mingw64/include/c++/15.2.0/bits/uses_allocator_args.h \
   E:/msys2/mingw64/include/c++/15.2.0/bits/utility.h \
+  E:/msys2/mingw64/include/c++/15.2.0/bits/vector.tcc \
   E:/msys2/mingw64/include/c++/15.2.0/bits/version.h \
   E:/msys2/mingw64/include/c++/15.2.0/cctype \
   E:/msys2/mingw64/include/c++/15.2.0/cerrno \
@@ -1009,6 +1057,7 @@ CMakeFiles/MechsAtDawn.dir/src/game.cpp.obj: C:/Users/duelm/Documents/GitHub/Mec
   E:/msys2/mingw64/include/c++/15.2.0/string_view \
   E:/msys2/mingw64/include/c++/15.2.0/tuple \
   E:/msys2/mingw64/include/c++/15.2.0/type_traits \
+  E:/msys2/mingw64/include/c++/15.2.0/vector \
   E:/msys2/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
   E:/msys2/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
   E:/msys2/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++locale.h \
@@ -1047,12 +1096,15 @@ CMakeFiles/MechsAtDawn.dir/src/main.cpp.obj: C:/Users/duelm/Documents/GitHub/Mec
   C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/CollisionSystem.h \
   C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/Enemy.h \
   C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/EnemySystem.h \
+  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/GameConfig.h \
   C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/LevelUpUI.h \
   C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/Player.h \
   C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/PlayerSystem.h \
+  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/RenderUtils.h \
   C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/ScalingSystem.h \
   C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/XPOrb.h \
   C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/XPSystem.h \
+  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/game.h \
   E:/msys2/mingw64/include/_mingw.h \
   E:/msys2/mingw64/include/_mingw_mac.h \
   E:/msys2/mingw64/include/_mingw_off_t.h \
@@ -1187,8 +1239,6 @@ C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/XPSystem.h:
 
 C:/Users/duelm/Documents/GitHub/MechsAtDawn/src/XPSystem.cpp:
 
-C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/XPOrb.h:
-
 C:/Users/duelm/Documents/GitHub/MechsAtDawn/src/ScalingSystem.cpp:
 
 C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/PlayerSystem.h:
@@ -1243,6 +1293,16 @@ E:/msys2/mingw64/include/c++/15.2.0/bits/stringfwd.h:
 
 E:/msys2/mingw64/include/c++/15.2.0/bits/stl_numeric.h:
 
+E:/msys2/mingw64/include/c++/15.2.0/bits/random.tcc:
+
+E:/msys2/mingw64/include/c++/15.2.0/bits/postypes.h:
+
+E:/msys2/mingw64/include/c++/15.2.0/bits/ostream_insert.h:
+
+E:/msys2/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/opt_random.h:
+
+E:/msys2/mingw64/include/c++/15.2.0/bits/localefwd.h:
+
 E:/msys2/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++locale.h:
 
 E:/msys2/mingw64/include/c++/15.2.0/ext/type_traits.h:
@@ -1268,8 +1328,6 @@ E:/msys2/mingw64/include/stdarg.h:
 E:/msys2/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:
 
 E:/msys2/mingw64/include/c++/15.2.0/bits/stl_construct.h:
-
-E:/msys2/mingw64/include/c++/15.2.0/bits/ostream_insert.h:
 
 E:/msys2/mingw64/include/c++/15.2.0/bits/stl_algobase.h:
 
@@ -1345,6 +1403,8 @@ E:/msys2/mingw64/include/c++/15.2.0/bits/stl_iterator_base_funcs.h:
 
 C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/Bullet.h:
 
+C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/XPOrb.h:
+
 C:/Users/duelm/Documents/GitHub/MechsAtDawn/src/Player.cpp:
 
 E:/msys2/mingw64/include/c++/15.2.0/bit:
@@ -1391,6 +1451,10 @@ E:/msys2/mingw64/include/c++/15.2.0/tr1/exp_integral.tcc:
 
 E:/msys2/mingw64/include/_mingw_off_t.h:
 
+E:/msys2/mingw64/include/c++/15.2.0/bits/random.h:
+
+C:/Users/duelm/Documents/GitHub/MechsAtDawn/src/Bullet.cpp:
+
 E:/msys2/mingw64/include/c++/15.2.0/bits/functexcept.h:
 
 E:/msys2/mingw64/include/c++/15.2.0/bits/hash_bytes.h:
@@ -1407,11 +1471,9 @@ E:/msys2/mingw64/include/c++/15.2.0/cstddef:
 
 E:/msys2/mingw64/include/c++/15.2.0/bits/uniform_int_dist.h:
 
+C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/MathUtils.h:
+
 E:/msys2/mingw64/include/c++/15.2.0/bits/memory_resource.h:
-
-E:/msys2/mingw64/include/c++/15.2.0/bits/range_access.h:
-
-E:/msys2/mingw64/include/c++/15.2.0/bits/refwrap.h:
 
 C:/Users/duelm/Documents/GitHub/MechsAtDawn/src/main.cpp:
 
@@ -1443,8 +1505,6 @@ E:/msys2/mingw64/include/c++/15.2.0/pstl/glue_algorithm_defs.h:
 
 E:/msys2/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h:
 
-E:/msys2/mingw64/include/c++/15.2.0/bits/random.tcc:
-
 E:/msys2/mingw64/include/c++/15.2.0/type_traits:
 
 E:/msys2/mingw64/include/corecrt_wstdlib.h:
@@ -1463,15 +1523,17 @@ E:/msys2/mingw64/include/sec_api/stdlib_s.h:
 
 E:/msys2/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h:
 
-E:/msys2/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/opt_random.h:
-
-E:/msys2/mingw64/include/c++/15.2.0/bits/localefwd.h:
-
 E:/msys2/mingw64/include/stdlib.h:
 
 E:/msys2/mingw64/include/c++/15.2.0/tr1/special_function_util.h:
 
 C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/EnemySystem.h:
+
+E:/msys2/mingw64/include/c++/15.2.0/bits/range_access.h:
+
+E:/msys2/mingw64/include/c++/15.2.0/bits/refwrap.h:
+
+C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/GameConfig.h:
 
 E:/msys2/mingw64/include/vadefs.h:
 
@@ -1488,6 +1550,8 @@ E:/msys2/mingw64/include/sys/timeb.h:
 C:/Users/duelm/Documents/GitHub/MechsAtDawn/src/CollisionSystem.cpp:
 
 E:/msys2/mingw64/include/c++/15.2.0/tr1/modified_bessel_func.tcc:
+
+C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/RenderUtils.h:
 
 C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/Enemy.h:
 
@@ -1511,6 +1575,8 @@ E:/msys2/mingw64/include/c++/15.2.0/tr1/riemann_zeta.tcc:
 
 E:/msys2/mingw64/include/math.h:
 
+C:/Users/duelm/Documents/GitHub/MechsAtDawn/src/GameConfig.cpp:
+
 E:/msys2/mingw64/include/_mingw_stat64.h:
 
 E:/msys2/mingw64/include/c++/15.2.0/string:
@@ -1528,9 +1594,3 @@ E:/msys2/mingw64/include/corecrt.h:
 E:/msys2/mingw64/include/sdks/_mingw_ddk.h:
 
 E:/msys2/mingw64/include/c++/15.2.0/bits/char_traits.h:
-
-E:/msys2/mingw64/include/c++/15.2.0/bits/postypes.h:
-
-C:/Users/duelm/Documents/GitHub/MechsAtDawn/src/Bullet.cpp:
-
-E:/msys2/mingw64/include/c++/15.2.0/bits/random.h:

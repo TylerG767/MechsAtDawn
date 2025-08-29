@@ -224,6 +224,30 @@ src/EnemySystem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MechsAtDawn.dir\build.make CMakeFiles/MechsAtDawn.dir/src/EnemySystem.cpp.s
 .PHONY : src/EnemySystem.cpp.s
 
+src/GameConfig.obj: src/GameConfig.cpp.obj
+.PHONY : src/GameConfig.obj
+
+# target to build an object file
+src/GameConfig.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MechsAtDawn.dir\build.make CMakeFiles/MechsAtDawn.dir/src/GameConfig.cpp.obj
+.PHONY : src/GameConfig.cpp.obj
+
+src/GameConfig.i: src/GameConfig.cpp.i
+.PHONY : src/GameConfig.i
+
+# target to preprocess a source file
+src/GameConfig.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MechsAtDawn.dir\build.make CMakeFiles/MechsAtDawn.dir/src/GameConfig.cpp.i
+.PHONY : src/GameConfig.cpp.i
+
+src/GameConfig.s: src/GameConfig.cpp.s
+.PHONY : src/GameConfig.s
+
+# target to generate assembly for a file
+src/GameConfig.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MechsAtDawn.dir\build.make CMakeFiles/MechsAtDawn.dir/src/GameConfig.cpp.s
+.PHONY : src/GameConfig.cpp.s
+
 src/LevelUpUI.obj: src/LevelUpUI.cpp.obj
 .PHONY : src/LevelUpUI.obj
 
@@ -437,6 +461,9 @@ help:
 	@echo ... src/EnemySystem.obj
 	@echo ... src/EnemySystem.i
 	@echo ... src/EnemySystem.s
+	@echo ... src/GameConfig.obj
+	@echo ... src/GameConfig.i
+	@echo ... src/GameConfig.s
 	@echo ... src/LevelUpUI.obj
 	@echo ... src/LevelUpUI.i
 	@echo ... src/LevelUpUI.s

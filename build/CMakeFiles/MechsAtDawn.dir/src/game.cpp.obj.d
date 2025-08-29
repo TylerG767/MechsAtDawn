@@ -102,4 +102,16 @@ CMakeFiles/MechsAtDawn.dir/src/game.cpp.obj: \
  E:/msys2/mingw64/include/c++/15.2.0/bits/uses_allocator.h \
  E:/msys2/mingw64/include/c++/15.2.0/bits/uses_allocator_args.h \
  E:/msys2/mingw64/include/c++/15.2.0/tuple \
- C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/Player.h
+ C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/Player.h \
+ C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/PlayerSystem.h \
+ C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/Bullet.h \
+ E:/msys2/mingw64/include/c++/15.2.0/vector \
+ E:/msys2/mingw64/include/c++/15.2.0/bits/stl_uninitialized.h \
+ E:/msys2/mingw64/include/c++/15.2.0/bits/stl_vector.h \
+ E:/msys2/mingw64/include/c++/15.2.0/bits/stl_bvector.h \
+ E:/msys2/mingw64/include/c++/15.2.0/bits/vector.tcc \
+ C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/Enemy.h \
+ C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/ScalingSystem.h \
+ C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/GameConfig.h \
+ C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/RenderUtils.h \
+ C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/GameConfig.h

@@ -1,16 +1,27 @@
 #include "PlayerSystem.h"
 #include <raylib.h>
+#include "GameConfig.h" // for centralized screen dimensions
+#include "MathUtils.h" // for vector operations
+
+// Helper function to clamp player position inside window
+static void ClampPlayerToWindow(Player& player, int screenWidth = -1, int screenHeight = -1) {
+    // Use current screen dimensions if not specified
+    if (screenWidth == -1) screenWidth = GameConfig::SCREEN_WIDTH;
+    if (screenHeight == -1) screenHeight = GameConfig::SCREEN_HEIGHT;
+    if (player.position.x < 0) player.position.x = 0;
+    if (player.position.y < 0) player.position.y = 0;
+    if (player.position.x > screenWidth - player.size.x) player.position.x = screenWidth - player.size.x;
+    if (player.position.y > screenHeight - player.size.y) player.position.y = screenHeight - player.size.y;
+}
 
 void HandlePlayerInput(Player& player, float delta) {
+    // Handle WASD movement
     if (IsKeyDown(KEY_W)) player.position.y -= player.speed;
     if (IsKeyDown(KEY_S)) player.position.y += player.speed;
     if (IsKeyDown(KEY_A)) player.position.x -= player.speed;
     if (IsKeyDown(KEY_D)) player.position.x += player.speed;
-    // Clamp player inside window (assuming 800x600)
-    if (player.position.x < 0) player.position.x = 0;
-    if (player.position.y < 0) player.position.y = 0;
-    if (player.position.x > 800 - player.size.x) player.position.x = 800 - player.size.x;
-    if (player.position.y > 600 - player.size.y) player.position.y = 600 - player.size.y;
+    // Clamp to window using helper
+    ClampPlayerToWindow(player);
 }
 
 #include <limits>
@@ -38,15 +49,12 @@ void HandlePlayerShooting(Player& player, std::vector<Bullet>& bullets, float& s
         Vector2 bulletSpawn = { player.position.x + player.size.x / 2 - 3, player.position.y + player.size.y / 2 - 8 };
         // This centers the bullet on the player
         Vector2 dir = { targetPos.x - bulletSpawn.x, targetPos.y - bulletSpawn.y };
-        float len = sqrtf(dir.x*dir.x + dir.y*dir.y);
-        if (len > 0.01f) {
-            dir.x /= len;
-            dir.y /= len;
-        } else {
-            dir.x = 0;
-            dir.y = -1;
+        Vector2 normalizedDir = MathUtils::Normalize(dir);
+        // Fallback to upward direction if normalization failed
+        if (normalizedDir.x == 0.0f && normalizedDir.y == 0.0f) {
+            normalizedDir = { 0, -1 };
         }
-        SpawnBullet(bullets, bulletSpawn, dir, player.damage);
+        SpawnBullet(bullets, bulletSpawn, normalizedDir, player.damage);
         shootTimer = player.attackRate;
     }
 }

@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/MechsAtDawn.dir/src/Enemy.cpp.obj.d"
   "CMakeFiles/MechsAtDawn.dir/src/EnemySystem.cpp.obj"
   "CMakeFiles/MechsAtDawn.dir/src/EnemySystem.cpp.obj.d"
+  "CMakeFiles/MechsAtDawn.dir/src/GameConfig.cpp.obj"
+  "CMakeFiles/MechsAtDawn.dir/src/GameConfig.cpp.obj.d"
   "CMakeFiles/MechsAtDawn.dir/src/LevelUpUI.cpp.obj"
   "CMakeFiles/MechsAtDawn.dir/src/LevelUpUI.cpp.obj.d"
   "CMakeFiles/MechsAtDawn.dir/src/Player.cpp.obj"

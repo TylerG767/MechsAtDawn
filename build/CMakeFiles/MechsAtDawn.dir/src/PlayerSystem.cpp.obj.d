@@ -69,7 +69,8 @@ CMakeFiles/MechsAtDawn.dir/src/PlayerSystem.cpp.obj: \
  E:/msys2/mingw64/include/c++/15.2.0/tuple \
  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/Enemy.h \
  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/ScalingSystem.h \
- E:/msys2/mingw64/include/c++/15.2.0/limits \
+ C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/GameConfig.h \
+ C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/MathUtils.h \
  E:/msys2/mingw64/include/c++/15.2.0/cmath \
  E:/msys2/mingw64/include/math.h \
  E:/msys2/mingw64/include/c++/15.2.0/bits/std_abs.h \
@@ -84,6 +85,7 @@ CMakeFiles/MechsAtDawn.dir/src/PlayerSystem.cpp.obj: \
  E:/msys2/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
  E:/msys2/mingw64/include/errno.h \
  E:/msys2/mingw64/include/c++/15.2.0/bits/specfun.h \
+ E:/msys2/mingw64/include/c++/15.2.0/limits \
  E:/msys2/mingw64/include/c++/15.2.0/tr1/gamma.tcc \
  E:/msys2/mingw64/include/c++/15.2.0/tr1/special_function_util.h \
  E:/msys2/mingw64/include/c++/15.2.0/tr1/bessel_function.tcc \

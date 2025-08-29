@@ -3,8 +3,8 @@
 #include <algorithm>
 #include <cmath>
 #include "Bullet.h"
-
 #include "ScalingSystem.h"
+#include "MathUtils.h" // for vector operations
 
 void SpawnEnemy(std::vector<Enemy>& enemies, int screenWidth, int screenHeight, Vector2 playerPos, float minSpawnRadius, float speed, const ScalingParams& scaling) {
     Enemy e;
@@ -27,7 +27,7 @@ void SpawnEnemy(std::vector<Enemy>& enemies, int screenWidth, int screenHeight, 
                 break;
         }
         Vector2 toPlayer = { playerPos.x - e.position.x, playerPos.y - e.position.y };
-        float len = sqrtf(toPlayer.x * toPlayer.x + toPlayer.y * toPlayer.y);
+        float len = MathUtils::Distance(e.position, playerPos);
         if (len > minSpawnRadius) break;
     }
     e.enemyType = rand() % 2; // 0 or 1
@@ -42,15 +42,11 @@ void SpawnEnemy(std::vector<Enemy>& enemies, int screenWidth, int screenHeight, 
 void UpdateEnemies(std::vector<Enemy>& enemies, float screenWidth, float screenHeight, Vector2 playerPos) {
     for (auto& e : enemies) {
         Vector2 toPlayer = { playerPos.x - e.position.x, playerPos.y - e.position.y };
-        float len = sqrtf(toPlayer.x * toPlayer.x + toPlayer.y * toPlayer.y);
-        if (len > 0.01f) {
-            toPlayer.x /= len;
-            toPlayer.y /= len;
-        }
+        Vector2 normalizedToPlayer = MathUtils::Normalize(toPlayer);
         float cosA = cosf(e.pathOffsetAngle);
         float sinA = sinf(e.pathOffsetAngle);
-        float dirX = toPlayer.x * cosA - toPlayer.y * sinA;
-        float dirY = toPlayer.x * sinA + toPlayer.y * cosA;
+        float dirX = normalizedToPlayer.x * cosA - normalizedToPlayer.y * sinA;
+        float dirY = normalizedToPlayer.x * sinA + normalizedToPlayer.y * cosA;
         float actualSpeed = e.speed * 0.6f;
         e.position.x += dirX * actualSpeed;
         e.position.y += dirY * actualSpeed;

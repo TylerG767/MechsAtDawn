@@ -9,7 +9,7 @@ CMakeFiles/MechsAtDawn.dir/src/main.cpp.obj: \
  E:/msys2/mingw64/include/_mingw_mac.h \
  E:/msys2/mingw64/include/_mingw_secapi.h \
  E:/msys2/mingw64/include/sdks/_mingw_ddk.h \
- C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/Bullet.h \
+ C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/Enemy.h \
  E:/msys2/mingw64/include/c++/15.2.0/vector \
  E:/msys2/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
  E:/msys2/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -66,8 +66,6 @@ CMakeFiles/MechsAtDawn.dir/src/main.cpp.obj: \
  E:/msys2/mingw64/include/c++/15.2.0/bits/uses_allocator.h \
  E:/msys2/mingw64/include/c++/15.2.0/bits/uses_allocator_args.h \
  E:/msys2/mingw64/include/c++/15.2.0/tuple \
- C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/Player.h \
- C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/Enemy.h \
  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/ScalingSystem.h \
  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/Bullet.h \
  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/XPOrb.h \
@@ -121,6 +119,10 @@ CMakeFiles/MechsAtDawn.dir/src/main.cpp.obj: \
  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/EnemySystem.h \
  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/XPSystem.h \
  C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/CollisionSystem.h \
+ C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/game.h \
+ C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/GameConfig.h \
+ C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/RenderUtils.h \
+ C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/GameConfig.h \
  E:/msys2/mingw64/include/c++/15.2.0/ctime \
  E:/msys2/mingw64/include/time.h E:/msys2/mingw64/include/sys/timeb.h \
  E:/msys2/mingw64/include/sec_api/sys/timeb_s.h \

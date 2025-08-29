@@ -18,9 +18,10 @@ struct Player {
 };
 
 void InitPlayer(Player& player);
-void UpdatePlayer(Player& player);
 void DrawPlayer(const Player& player);
 void UnloadPlayer(Player& player);
+
+// Note: Player input/movement is handled in PlayerSystem::HandlePlayerInput()
 
 
 

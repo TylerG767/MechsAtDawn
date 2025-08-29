@@ -100,4 +100,5 @@ CMakeFiles/MechsAtDawn.dir/src/XPOrb.cpp.obj: \
  E:/msys2/mingw64/include/c++/15.2.0/tr1/modified_bessel_func.tcc \
  E:/msys2/mingw64/include/c++/15.2.0/tr1/poly_hermite.tcc \
  E:/msys2/mingw64/include/c++/15.2.0/tr1/poly_laguerre.tcc \
- E:/msys2/mingw64/include/c++/15.2.0/tr1/riemann_zeta.tcc
+ E:/msys2/mingw64/include/c++/15.2.0/tr1/riemann_zeta.tcc \
+ C:/Users/duelm/Documents/GitHub/MechsAtDawn/include/MathUtils.h

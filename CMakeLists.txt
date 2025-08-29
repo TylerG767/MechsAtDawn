@@ -25,6 +25,7 @@ add_executable(MechsAtDawn
     ${SRC_DIR}/EnemySystem.cpp
     ${SRC_DIR}/XPSystem.cpp
     ${SRC_DIR}/CollisionSystem.cpp
+    ${SRC_DIR}/GameConfig.cpp
 )
 
 target_link_libraries(MechsAtDawn raylib)

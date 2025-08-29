@@ -251,6 +251,21 @@ CMakeFiles/MechsAtDawn.dir/src/CollisionSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MechsAtDawn.dir/src/CollisionSystem.cpp.s"
 	E:\msys2\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\duelm\Documents\GitHub\MechsAtDawn\src\CollisionSystem.cpp -o CMakeFiles\MechsAtDawn.dir\src\CollisionSystem.cpp.s
 
+CMakeFiles/MechsAtDawn.dir/src/GameConfig.cpp.obj: CMakeFiles/MechsAtDawn.dir/flags.make
+CMakeFiles/MechsAtDawn.dir/src/GameConfig.cpp.obj: CMakeFiles/MechsAtDawn.dir/includes_CXX.rsp
+CMakeFiles/MechsAtDawn.dir/src/GameConfig.cpp.obj: C:/Users/duelm/Documents/GitHub/MechsAtDawn/src/GameConfig.cpp
+CMakeFiles/MechsAtDawn.dir/src/GameConfig.cpp.obj: CMakeFiles/MechsAtDawn.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\duelm\Documents\GitHub\MechsAtDawn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/MechsAtDawn.dir/src/GameConfig.cpp.obj"
+	E:\msys2\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MechsAtDawn.dir/src/GameConfig.cpp.obj -MF CMakeFiles\MechsAtDawn.dir\src\GameConfig.cpp.obj.d -o CMakeFiles\MechsAtDawn.dir\src\GameConfig.cpp.obj -c C:\Users\duelm\Documents\GitHub\MechsAtDawn\src\GameConfig.cpp
+
+CMakeFiles/MechsAtDawn.dir/src/GameConfig.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MechsAtDawn.dir/src/GameConfig.cpp.i"
+	E:\msys2\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\duelm\Documents\GitHub\MechsAtDawn\src\GameConfig.cpp > CMakeFiles\MechsAtDawn.dir\src\GameConfig.cpp.i
+
+CMakeFiles/MechsAtDawn.dir/src/GameConfig.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MechsAtDawn.dir/src/GameConfig.cpp.s"
+	E:\msys2\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\duelm\Documents\GitHub\MechsAtDawn\src\GameConfig.cpp -o CMakeFiles\MechsAtDawn.dir\src\GameConfig.cpp.s
+
 # Object files for target MechsAtDawn
 MechsAtDawn_OBJECTS = \
 "CMakeFiles/MechsAtDawn.dir/src/main.cpp.obj" \
@@ -264,7 +279,8 @@ MechsAtDawn_OBJECTS = \
 "CMakeFiles/MechsAtDawn.dir/src/PlayerSystem.cpp.obj" \
 "CMakeFiles/MechsAtDawn.dir/src/EnemySystem.cpp.obj" \
 "CMakeFiles/MechsAtDawn.dir/src/XPSystem.cpp.obj" \
-"CMakeFiles/MechsAtDawn.dir/src/CollisionSystem.cpp.obj"
+"CMakeFiles/MechsAtDawn.dir/src/CollisionSystem.cpp.obj" \
+"CMakeFiles/MechsAtDawn.dir/src/GameConfig.cpp.obj"
 
 # External object files for target MechsAtDawn
 MechsAtDawn_EXTERNAL_OBJECTS =
@@ -281,12 +297,13 @@ MechsAtDawn.exe: CMakeFiles/MechsAtDawn.dir/src/PlayerSystem.cpp.obj
 MechsAtDawn.exe: CMakeFiles/MechsAtDawn.dir/src/EnemySystem.cpp.obj
 MechsAtDawn.exe: CMakeFiles/MechsAtDawn.dir/src/XPSystem.cpp.obj
 MechsAtDawn.exe: CMakeFiles/MechsAtDawn.dir/src/CollisionSystem.cpp.obj
+MechsAtDawn.exe: CMakeFiles/MechsAtDawn.dir/src/GameConfig.cpp.obj
 MechsAtDawn.exe: CMakeFiles/MechsAtDawn.dir/build.make
 MechsAtDawn.exe: E:/msys2/mingw64/lib/libraylib.dll.a
 MechsAtDawn.exe: CMakeFiles/MechsAtDawn.dir/linkLibs.rsp
 MechsAtDawn.exe: CMakeFiles/MechsAtDawn.dir/objects1.rsp
 MechsAtDawn.exe: CMakeFiles/MechsAtDawn.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\duelm\Documents\GitHub\MechsAtDawn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable MechsAtDawn.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\duelm\Documents\GitHub\MechsAtDawn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable MechsAtDawn.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MechsAtDawn.dir\link.txt --verbose=$(VERBOSE)
 	E:\msys2\mingw64\bin\cmake.exe -E copy_directory C:/Users/duelm/Documents/GitHub/MechsAtDawn/assets C:/Users/duelm/Documents/GitHub/MechsAtDawn/build/assets
 

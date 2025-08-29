@@ -3,6 +3,7 @@
 #include <raylib.h>
 #include <algorithm>
 #include <cmath>
+#include "MathUtils.h" // for distance calculations
 
 void SpawnXPOrb(std::vector<XPOrb>& orbs, Vector2 pos, int value) {
     XPOrb orb;
@@ -13,9 +14,7 @@ void SpawnXPOrb(std::vector<XPOrb>& orbs, Vector2 pos, int value) {
 
 void UpdateXPOrbs(std::vector<XPOrb>& orbs, Vector2 playerPos, int& playerXP, int pickupRadius) {
     orbs.erase(std::remove_if(orbs.begin(), orbs.end(), [&](XPOrb& orb) {
-        float dx = orb.position.x - playerPos.x;
-        float dy = orb.position.y - playerPos.y;
-        float dist = sqrtf(dx*dx + dy*dy);
+        float dist = MathUtils::Distance(orb.position, playerPos);
         if (dist <= pickupRadius) {
             playerXP += orb.value;
             return true; // Remove orb
